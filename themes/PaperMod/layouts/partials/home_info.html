@@ -2,7 +2,7 @@
 {{- $img := (resources.Get "/images/me.png") -}}
 
 <article class="first-entry home-info">
-    <img class="my-avt" src="{{ $img.Permalink }}" style="width: 80px;border-radius: 50%;border: 1px solid #3e52db;">
+    <img class="my-avt" alt="my-avt" src="{{ $img.Permalink }}" style="width: 80px;border-radius: 50%;border: 1px solid #3e52db;">
     <div class="right">
         <header class="entry-header">
             <h1>{{ .Title | markdownify }}</h1>

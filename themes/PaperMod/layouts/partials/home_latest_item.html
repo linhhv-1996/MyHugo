@@ -18,4 +18,4 @@
 </style>
 
 {{- $img := (resources.Get "/images/arr-up-right.png") -}}
-<h2>Latest Posts <a href="/posts"><img class="arr-up-right" src="{{ $img.Permalink }}"></a></h2>
+<h2>Latest Posts <a aria-label="Latest Posts" href="/posts"><img alt="arr-up-right" class="arr-up-right" src="{{ $img.Permalink }}"></a></h2>
