@@ -52,6 +52,7 @@
 {{- end }}
 
 {{- if .IsHome }}
+  {{- partial "affiliate.html" . }}
   {{- partial "home_latest_item.html" . }}
 {{- else }}
 <!-- start -->
