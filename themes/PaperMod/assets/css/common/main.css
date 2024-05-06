@@ -84,3 +84,7 @@ div.highlight:hover .copy-code,
 pre:hover .copy-code {
     display: block;
 }
+
+.home-info ul {
+    list-style-type: disclosure-closed;
+}

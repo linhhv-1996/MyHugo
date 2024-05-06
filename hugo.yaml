@@ -1,6 +1,6 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: ""
+baseURL: "https://myhugo-3pco.onrender.com/"
 title: WordWhisperer
 copyright: "© WordWhisperer"
 paginate: 5
@@ -93,6 +93,8 @@ params:
       - When I'm not at my desk, I am probably lifting weights, playing soccer, riding my e-bike, or at a local coffee shop.
 
       - Wellcome to my digital garden, where I write about the things I'm working on and share what I've learned.
+
+      - Let's connect on social media:
   socialIcons:
     - name: Linkedin
       title: Join linkedin community
