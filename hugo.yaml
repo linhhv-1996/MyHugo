@@ -13,7 +13,7 @@ buildFuture: false
 buildExpired: false
 enableEmoji: true
 pygmentsUseClasses: true
-mainsections: ["posts", "papermod"]
+mainsections: ["posts"]
 
 minify:
   disableXML: true
@@ -52,7 +52,7 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  description: "Product Monetization, Marketing Blog, Software Enginering, Personal Blog"
   author: "WordWhisperer"
   # author: ["Me", "You"] # multiple authors
 
@@ -96,16 +96,21 @@ params:
 
       - Let's connect on social media:
   socialIcons:
+    - name: Email
+      title: Gmail
+      url: "mailto: linhhv.word@gmail.com"
     - name: Linkedin
       title: Join linkedin community
       url: "https://www.linkedin.com/in/hoang-van-linh-173362256/"
     - name: X
       title: Share blog on X/Twitter
       url: "https://twitter.com/linhhv_me"
+    - name: Instagram
+      title: Gmail
+      url: "mailto: linhhv.word@gmail.com"
     - name: KoFi
       title: Buy me a Ko-Fi :)
       url: "https://www.buymeacoffee.com/hoanglinh"
-
   editPost:
     URL: ""
     Text: "" # edit text

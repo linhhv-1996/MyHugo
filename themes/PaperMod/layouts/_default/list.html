@@ -53,7 +53,11 @@
 
 {{- if .IsHome }}
   {{- partial "home_latest_item.html" . }}
-{{- end }}
+{{- else }}
+<!-- start -->
+
+
+
 
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
@@ -95,6 +99,8 @@
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
+
+
 {{- end }}
 
 {{- if .IsHome }}
@@ -124,6 +130,21 @@
 {{- end }}
 
 {{- end }}
+
+
+
+
+
+
+
+
+
+
+
+<!-- end -->
+{{- end }}
+
+
 
 
 {{- end }}{{/* end profileMode */}}
