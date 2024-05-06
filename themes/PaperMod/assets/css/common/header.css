@@ -67,7 +67,10 @@ body:not(.dark) #sun {
 
 #menu .active {
     font-weight: 500;
-    border-bottom: 2px solid currentColor;
+    /* border-bottom: 2px solid currentColor; */
+    padding: 7px 10px;
+    background: #e0e0e0;
+    border-radius: 6px;
 }
 
 .lang-switch li,
@@ -90,4 +93,10 @@ body:not(.dark) #sun {
 
 .logo-switches {
     flex-wrap: inherit;
+}
+
+body.dark {
+    #menu .active {
+        background-color: #4d4d4d;
+    }
 }

@@ -2,8 +2,8 @@
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "https://wordwhisperer.co/"
 title: WordWhisperer
-copyright: "© WordWhisperer"
-paginate: 5
+# copyright: "© WordWhisperer"
+paginate: 8
 theme: [PaperMod]
 
 enableInlineShortcodes: true
@@ -17,7 +17,7 @@ mainsections: ["posts"]
 
 minify:
   disableXML: true
-  # minifyOutput: true
+  minifyOutput: true
 
 languages:
   en:
@@ -32,9 +32,6 @@ languages:
         - name: Home
           url: /
           weight: 1
-        # - name: About
-        #   url: about
-          # weight: 5
         - name: Blog
           url: posts
           weight: 5
@@ -84,7 +81,17 @@ params:
         url: archives
       - name: Tags
         url: tags
+  about:
+    Content: >
+      - Hi 👋
 
+      - My name is **DEE** and I'm a Software Engineer and Product Monetization!
+
+      - When I'm not at my desk, I am probably lifting weights, playing soccer, riding my e-bike, or at a local coffee shop.
+
+      - Wellcome to my digital garden, where I write about the things I'm working on and share what I've learned.
+
+      - Let's connect on social media:
   homeInfoParams:
     Title: "Hey! 👋"
     Content: >
@@ -106,11 +113,8 @@ params:
       title: Share blog on X/Twitter
       url: "https://twitter.com/linhhv_me"
     - name: Instagram
-      title: Gmail
-      url: "mailto: linhhv.word@gmail.com"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://www.buymeacoffee.com/hoanglinh"
+      title: Instagram
+      url: "https://www.instagram.com/pi_on_inst/"
   editPost:
     URL: ""
     Text: "" # edit text
