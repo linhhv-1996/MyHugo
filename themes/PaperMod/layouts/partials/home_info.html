@@ -1,0 +1,18 @@
+{{- with site.Params.homeInfoParams }}
+{{- $img := (resources.Get "/images/me.png") -}}
+
+<article class="first-entry home-info">
+    <img class="my-avt" src="{{ $img.Permalink }}" style="width: 80px;border-radius: 50%;border: 1px solid #3e52db;">
+    <div class="right">
+        <header class="entry-header">
+            <h1>{{ .Title | markdownify }}</h1>
+        </header>
+        <div class="entry-content">
+            {{ .Content | markdownify }}
+        </div>
+        <footer class="entry-footer">
+            {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+        </footer>
+    </div>
+</article>
+{{- end -}}

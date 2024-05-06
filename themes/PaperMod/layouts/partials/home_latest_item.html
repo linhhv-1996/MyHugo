@@ -1,0 +1,21 @@
+<style>
+    body.dark {
+        img.arr-up-right {
+            filter: invert(1);
+        }
+    }
+
+    h2 {
+        display: flex;
+        align-items: end;
+        margin-bottom: 20px;
+    }
+
+    img.arr-up-right {
+        width: 25px;
+        margin-left: 3px;
+    }
+</style>
+
+{{- $img := (resources.Get "/images/arr-up-right.png") -}}
+<h2>Latest Posts <a href="/posts"><img class="arr-up-right" src="{{ $img.Permalink }}"></a></h2>
