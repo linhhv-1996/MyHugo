@@ -3,7 +3,7 @@ title: "Book Lovers"
 date: "2024-05-05"
 description: "Some thoughts after reading Book Lovers."
 summary: "Some thoughts after reading Book Lovers."
-tags: ["Science", "Physics", "History", "Mystery"]
+tags: ["Book", "Self Improvement"]
 ShowToc: true
 ---
 
