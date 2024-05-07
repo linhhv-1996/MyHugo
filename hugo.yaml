@@ -126,9 +126,9 @@ params:
     # icon: "images/me1.png"
     # iconHeight: 35
 
-  # analytics:
-  #     google:
-  #         SiteVerificationTag: "XYZabc"
+  analytics:
+    google:
+      SiteVerificationTag: "G-6H46KNRCC3"
 
   assets:
     # disableHLJS: true
