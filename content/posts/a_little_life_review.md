@@ -10,7 +10,7 @@ tags: ["Book", "Self Improvement"]
 ShowToc: true
 ---
 
-![little life](https://images.spiderum.com/sp-images/3625cff058a411eabc4ba77f1e6ee43a.jpg#center "little life")
+![little life](/posts/images/12.webp#center "little life")
 
 ### A little life - Hanya Yanagihara
 
