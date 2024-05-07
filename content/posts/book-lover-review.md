@@ -1,5 +1,5 @@
 ---
-title: "Book Lovers Review"
+title: "Book Lovers"
 date: "2024-05-05"
 description: "Some thoughts after reading Book Lovers."
 summary: "Some thoughts after reading Book Lovers."
