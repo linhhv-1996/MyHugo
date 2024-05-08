@@ -156,6 +156,8 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      autoHeadingID: true
   highlight:
     noClasses: false
     # anchorLineNos: true
