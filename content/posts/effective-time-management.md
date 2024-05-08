@@ -1,8 +1,8 @@
 ---
-title: "Time Management"
+title: "Effective Time Management"
 date: "2024-05-07"
-description: "Time Management With 1 Mindset, 3 Rules And 6 Scientific Methods."
-summary: "Time Management With 1 Mindset, 3 Rules And 6 Scientific Methods."
+description: "Effective Time Management With 1 Mindset, 3 Rules And 6 Scientific Methods."
+summary: "Effective Time Management With 1 Mindset, 3 Rules And 6 Scientific Methods."
 tags: ["Time Management", "Self Improvement", "Mindset", "Life"]
 cover:
   image: /posts/images/18.webp
