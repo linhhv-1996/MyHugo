@@ -99,5 +99,3 @@ This method is very convenient for young people who often use mobile phones and 
 ===
 
 I hope this article is useful for those of you who want to achieve financial independence. I personally feel like I still lack a lot of knowledge about money management and plan to learn more this year. I will continue to share this journey of mine with you through my blog. Wishing everyone to use the money they make autonomously, confidently, and peacefully.
-
-
